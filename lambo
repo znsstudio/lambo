@@ -147,7 +147,7 @@ PROJECTURL="http://$PROJECTNAME.$TLD"
 sedCommands=(
     "/DB_DATABASE/s/homestead/$PROJECTNAME/"
     '/DB_USERNAME/s/homestead/root/'
-    '/DB_PASSWORD/s/secret//'
+    '/DB_PASSWORD/s/secret/root/'
     "/APP_URL/s/localhost/$PROJECTNAME\.$TLD/"
 )
 
